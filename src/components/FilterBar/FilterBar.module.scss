@@ -1,0 +1,13 @@
+.activeGlow {
+  box-shadow: 0 0 0 1px rgba(110,168,254,0.25), 0 10px 30px rgba(110,168,254,0.12);
+}
+
+.pulse {
+  animation: pulse 420ms ease-out;
+}
+
+@keyframes pulse {
+  0% { transform: translateY(0); opacity: 0.9; }
+  40% { transform: translateY(-1px); opacity: 1; }
+  100% { transform: translateY(0); opacity: 1; }
+}
